@@ -8,51 +8,51 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="calculator">
-    <h1>Freelance Rate Calculator</h1>
-    
-    <label for="currency">Select Currency:</label>
-    <select id="currency">
-      <option value="$">$</option>
-      <option value="€">€</option>
-      <option value="£">£</option>
-    </select>
-    
-    <h2>Monthly Expenses</h2>
-    <label for="rent">Rent or Home Payments:</label>
-    <input type="number" id="rent">
-    
-    <label for="food">Food and Groceries:</label>
-    <input type="number" id="food">
-    
-    <label for="utilities">Utilities:</label>
-    <input type="number" id="utilities">
-    
-    <label for="insurance">Insurance:</label>
-    <input type="number" id="insurance">
-    
-    <label for="other">Other/Misc.:</label>
-    <input type="number" id="other">
-    
-    <div id="monthly-expenses-total">Total Monthly Expenses: $0.00</div>
-    
-    <h2>Annual Billable Hours</h2>
-    <label for="holidays">Holidays (days per year):</label>
-    <input type="number" id="holidays" value="11">
-    
-    <label for="sick-days">Personal/Sick Days (days per year):</label>
-    <input type="number" id="sick-days" value="5">
-    
-    <div id="annual-hours-total">Estimated Working Hours per Year: 0</div>
-    
-    <h2>Tax Rate</h2>
-    <label for="tax-rate">Estimated Tax Rate (%):</label>
-    <input type="number" id="tax-rate" value="30">
-    
-    <button id="calculate">Calculate</button>
-    
-    <div id="result"></div>
-  </div>
+  <h1>Freelance Rate Calculator</h1>
+  <h4>By <a href="https://www.linkedin.com/feed/" target="_blank">Christian Baun</a></h4>
+  
+  <label for="currency">Select Currency:</label>
+  <select id="currency">
+    <option value="$">$</option>
+    <option value="€">€</option>
+    <option value="£">£</option>
+  </select>
+  
+  <h2>Monthly Expenses</h2>
+  <label for="rent">Rent or Home Payments:</label>
+  <input type="number" id="rent">
+  
+  <label for="food">Food and Groceries:</label>
+  <input type="number" id="food">
+  
+  <label for="utilities">Utilities:</label>
+  <input type="number" id="utilities">
+  
+  <label for="insurance">Insurance:</label>
+  <input type="number" id="insurance">
+  
+  <label for="other">Other/Misc.:</label>
+  <input type="number" id="other">
+  
+  <div id="monthly-expenses-total">Total Monthly Expenses: $0.00</div>
+  
+  <h2>Annual Billable Hours</h2>
+  <label for="holidays">Holidays (days per year):</label>
+  <input type="number" id="holidays" value="11">
+  
+  <label for="sick-days">Personal/Sick Days (days per year):</label>
+  <input type="number" id="sick-days" value="5">
+  
+  <div id="annual-hours-total">Estimated Working Hours per Year: 0</div>
+  
+  <h2>Tax Rate</h2>
+  <label for="tax-rate">Estimated Tax Rate (%):</label>
+  <input type="number" id="tax-rate" value="30">
+  
+  <button id="calculate">Calculate</button>
+  
+  <div id="result"></div>
+
   <script src="popup.js"></script>
 </body>
 </html>
